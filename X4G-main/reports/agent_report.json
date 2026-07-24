@@ -1,0 +1,29 @@
+{
+  "root": "C:\\Users\\PC-A\\Documents\\X4G-main\\X4G-main",
+  "environment": {},
+  "checks": {
+    "required_files": {
+      "ok": true,
+      "missing": []
+    },
+    "python_modules": {
+      "ok": false,
+      "missing": [
+        "fastapi"
+      ]
+    }
+  },
+  "port_check": {
+    "ok": true,
+    "port": 8000
+  },
+  "runtime_metrics": {
+    "ok": false,
+    "error": "psutil not installed"
+  },
+  "endpoint_check": {
+    "ok": false,
+    "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>",
+    "url": "http://127.0.0.1:8000/health"
+  }
+}
